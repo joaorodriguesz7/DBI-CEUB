@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A357C7C5-0843-C4BD-2658-403005462E6B" name="ASS">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:26 UTC</createdTime>
+<generatorID>0E83F8FF-3F86-1E98-1348-F2116FDE475A</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<abbreviation>ASSOCIADO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf_Associado" id="8FB97B77-EA97-67CA-9AE9-830DD270EA20">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>7575FA29-7F7D-E52B-F76A-66B06A9CC150</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_Associado" id="99015618-848A-CF2D-173A-175F577576D0">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>D7F3BAAE-DE56-7F82-731A-293E3E831824</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone_Associado" id="F05AE573-95CC-7598-07A0-6E19F8145304">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>46EF7523-3BE7-B80E-84AD-9A64BF687F4D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco_Associado" id="B7D70CD8-0FBE-F24B-7EFA-259CDFE23B0A">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>789A9D40-3F05-197E-8715-0DFA28D2A3AC</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nascimento" id="82608CB9-F942-D6E0-06FD-D06A38A4AEED">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>2CA64ABB-BD32-1E1F-D35B-EEF2C00C10BF</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B931B05-AC30-DC3B-143C-59C1A889462E" name="ASS_PK">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>04DDAF5F-B871-613D-F58E-1BE935A2462A</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FB97B77-EA97-67CA-9AE9-830DD270EA20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

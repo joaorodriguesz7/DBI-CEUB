@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D62578AC-196F-1D2F-7B9E-B96EDB9E40CA" name="TelefoneDependente ">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:28:21 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="3E981135-2A88-24C2-1937-88157D66F2FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>TDP</preferredAbbreviation>
+<shortName>TelefoneDependente </shortName>
+<synonym>TelefoneDependente </synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfDepedente " id="9273022F-BF4D-F1B2-198B-4C734659A9BF">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:30:36 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="3E981135-2A88-24C2-1937-88157D66F2FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneDependente" id="10FC5F11-996A-BD87-527A-61AA41281718">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:30:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="3E981135-2A88-24C2-1937-88157D66F2FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E92070BA-570D-71B5-EA1E-694075F1E1EF" name="Telefone Dependente PK">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:30:47 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="3E981135-2A88-24C2-1937-88157D66F2FE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9273022F-BF4D-F1B2-198B-4C734659A9BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

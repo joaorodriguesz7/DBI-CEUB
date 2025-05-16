@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8757920D-2091-57AF-6329-E4AA9F79C464" name="DEP">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>09F43EE8-5B03-F14A-B2E2-65B6B1B3165F</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<abbreviation>DEPENDENTE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf_dependente" id="5A31B694-6A21-1723-A67E-248CBB295281">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>8366F76D-78D0-A3DA-34FB-52325B2D9F48</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_dependente" id="C08B19D7-2E4E-4BB6-F2B1-BFAF7BE92F07">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>CC571D80-749B-1457-E5EF-AB3B555FD831</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="parentesco" id="0C8A45EC-F23E-F655-C5EF-5FD96379C1C5">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>3D33F1FB-4EE3-CB37-B9EF-05DDEC317420</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone_dependente" id="0660F379-6821-FA82-4074-AD4AAB458241">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>3A5ECB5F-5AD2-23A0-A95C-632184471CCD</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco_depedente" id="37AD4C65-7163-DBC7-29C7-D2BAB8ABB47A">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>D34EAC8A-2462-99D8-B919-476614970031</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nascimento" id="223B04B7-25C5-2C2B-4445-209984004591">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>579C91D7-172F-8618-042B-58872498D632</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf_associado" id="DBB85AC0-C0AD-1C7E-B850-182F758B95BC">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>1A24A8C8-EE1B-87DC-F4D5-DFB3248792B2</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASS_cpf_Associado" id="291B7C38-DD6D-05F6-7087-737227B7B92D">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>A82392CE-9A2B-4794-D078-F13867148DA9</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09E13D60-0A05-57D2-41F7-63B70158CC87" referredColumn="8FB97B77-EA97-67CA-9AE9-830DD270EA20"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB2ED9B3-E775-8AB1-CE24-8450808DB1EF" name="DEP_PK">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>64B99644-0551-380E-AE9D-30A0C924E2F7</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A31B694-6A21-1723-A67E-248CBB295281"/>
+<colUsage columnID="C08B19D7-2E4E-4BB6-F2B1-BFAF7BE92F07"/>
+<colUsage columnID="DBB85AC0-C0AD-1C7E-B850-182F758B95BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="466D2EB5-6004-53F3-E04F-ED3592F0FD78" name="DEP_ASS_FK">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>F82BAF13-19C9-8FDA-FE93-BED0D986F976</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="291B7C38-DD6D-05F6-7087-737227B7B92D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

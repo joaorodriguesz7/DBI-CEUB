@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4309DAB-FD1C-85D4-3542-ED7299CC616E" name="MEN">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>7F90D485-A027-1591-F273-B7B63CA4E3BE</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<abbreviation>MENSALIDADE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf_associado" id="4D084FC2-FE0C-1CB6-BD10-738EB4B8A610">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>7E8338D3-7019-C76E-FB11-712CAC4442CD</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_mensalidade" id="704FDF40-9A87-0D75-FEAC-01E177C67D6B">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>C93A7E7B-A6E7-640B-7768-C3F5E3CBACAA</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_vencimento" id="8A36ADF4-26CC-7D47-6680-B316701C0257">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>7B20BE25-19A1-7E20-FE22-D5BBB8A209DB</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASS_cpf_Associado" id="DB548555-79BE-D8D6-EFE1-F1D0E8FFB362">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>2ED750B1-D272-B7F9-1478-23DF546193EB</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="590B73BD-0140-9BD4-7645-B5A7A7CA7138" referredColumn="8FB97B77-EA97-67CA-9AE9-830DD270EA20"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="251685BD-0506-4CDE-9571-E39C09D2BD44" name="MEN_PK">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>E5DA76B1-4B0A-0DB6-6A64-67B91B2C4D49</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D084FC2-FE0C-1CB6-BD10-738EB4B8A610"/>
+<colUsage columnID="8A36ADF4-26CC-7D47-6680-B316701C0257"/>
+<colUsage columnID="704FDF40-9A87-0D75-FEAC-01E177C67D6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71DD92EF-6FC5-E57F-AEA5-3806E06ED972" name="MEN_ASS_FK">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:21:27 UTC</createdTime>
+<generatorID>3E6FD5B8-CDFC-D67D-655C-E4BCDED654BA</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB548555-79BE-D8D6-EFE1-F1D0E8FFB362"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

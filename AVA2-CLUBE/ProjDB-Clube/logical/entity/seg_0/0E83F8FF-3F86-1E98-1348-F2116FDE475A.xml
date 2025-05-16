@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E83F8FF-3F86-1E98-1348-F2116FDE475A" name="Associado">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-15 23:26:44 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="3E981135-2A88-24C2-1937-88157D66F2FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>ASS</preferredAbbreviation>
+<shortName>Associado</shortName>
+<synonym>Associado</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfAssociado_" id="7575FA29-7F7D-E52B-F76A-66B06A9CC150">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-15 23:28:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="3E981135-2A88-24C2-1937-88157D66F2FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeAssociado " id="D7F3BAAE-DE56-7F82-731A-293E3E831824">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-15 23:28:58 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="3E981135-2A88-24C2-1937-88157D66F2FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enderecoAssociado" id="789A9D40-3F05-197E-8715-0DFA28D2A3AC">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-15 23:32:06 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="3E981135-2A88-24C2-1937-88157D66F2FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="2CA64ABB-BD32-1E1F-D35B-EEF2C00C10BF">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-15 23:32:21 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="3E981135-2A88-24C2-1937-88157D66F2FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfAssociado" id="550A4D74-2DA2-83E2-E2F6-C2E06753E991">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-16 00:27:58 UTC</createdTime>
+<generatorID>660B0BFB-0B3A-6861-1431-E46CEEAB8DD6</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="3E981135-2A88-24C2-1937-88157D66F2FE" value="true"/>
+</engineerTo>
+<referedAttribute>AE134671-48F5-5020-DBB7-19F0A63759CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04DDAF5F-B871-613D-F58E-1BE935A2462A" name="ASSOCIADO PK">
+<createdBy>jotapex12</createdBy>
+<createdTime>2025-05-15 23:28:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="3E981135-2A88-24C2-1937-88157D66F2FE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7575FA29-7F7D-E52B-F76A-66B06A9CC150</attributeRef>
+<attributeRef>789A9D40-3F05-197E-8715-0DFA28D2A3AC</attributeRef>
+<attributeRef>D7F3BAAE-DE56-7F82-731A-293E3E831824</attributeRef>
+<attributeRef>2CA64ABB-BD32-1E1F-D35B-EEF2C00C10BF</attributeRef>
+<attributeRef>550A4D74-2DA2-83E2-E2F6-C2E06753E991</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
